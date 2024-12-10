@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - Name List</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+
+<body>
+    <div class="contenu">
+        <h1>Name List</h1>
+        <div id="homeView">
+            <ul id="nameList">
+                <!-- Names will be dynamically populated here -->
+            </ul>
+        </div>
+
+        <div id="addPersonView">
+            <form id="addPersonForm">
+                <input type="text" id="name" name="name" placeholder="Name" required>
+                <input type="text" id="password" name="password" placeholder="Password" required>
+                <input type="submit" id="addPerson" value="Add Person">
+            </form>
+        </div>
+        <div id="assignNamesForm">
+            <form action="" id="assignForm">
+                <button type="button" id="assignBtn">Assign Names</button>
+            </form>
+        </div>
+        <div id="clearList">
+            <form action="" id="clearListForm">
+                <button type="button" id="clearBtn">Clear List</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="/script.js"></script>
+</body>
+
+</html>
